@@ -35,3 +35,7 @@ Expected output:
 ```
 Validation failed: [ 'Tags: must have at least 3 elements' ]
 ```
+
+## License
+
+MIT
