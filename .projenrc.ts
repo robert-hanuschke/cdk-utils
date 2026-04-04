@@ -1,4 +1,5 @@
 import { JsiiProject } from 'projen/lib/cdk';
+import { NodePackageManager } from 'projen/lib/javascript';
 const project = new JsiiProject({
   author: 'Robert Hanuschke',
   authorAddress: 'robhan-cdk-lib@hanuschke.eu',
@@ -13,9 +14,10 @@ const project = new JsiiProject({
       labels: ['auto-approve'],
     },
   },
-  jsiiVersion: '~5.8.0',
+  jsiiVersion: '~5.9.0',
   license: 'MIT',
   name: 'utils',
+  packageManager: NodePackageManager.YARN_CLASSIC,
   packageName: '@robhan-cdk-lib/utils',
   projenrcTs: true,
   publishToGo: {
