@@ -51,11 +51,11 @@
     "jest": "^30.4.2",
     "jest-junit": "^17",
     "jsii": "~5.9.0",
-    "jsii-diff": "^1.135.0",
+    "jsii-diff": "^1.136.0",
     "jsii-docgen": "^10.5.0",
-    "jsii-pacmak": "^1.135.0",
+    "jsii-pacmak": "^1.136.0",
     "jsii-rosetta": "~5.9.0",
-    "projen": "^0.99.76",
+    "projen": "^0.99.80",
     "ts-jest": "^29.4.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
@@ -69,6 +69,7 @@
   },
   "main": "lib/index.js",
   "license": "MIT",
+  "stability": "stable",
   "version": "0.0.0",
   "jest": {
     "coverageProvider": "v8",
@@ -116,7 +117,6 @@
     }
   },
   "types": "lib/index.d.ts",
-  "stability": "stable",
   "jsii": {
     "outdir": "dist",
     "targets": {
